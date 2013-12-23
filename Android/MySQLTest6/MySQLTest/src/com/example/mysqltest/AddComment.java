@@ -21,6 +21,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 //mesut ben
+//davaro ben
 
 public class AddComment extends Activity implements OnClickListener{
 	
