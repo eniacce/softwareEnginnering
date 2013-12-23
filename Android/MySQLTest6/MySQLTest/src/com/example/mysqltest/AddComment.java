@@ -20,8 +20,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-//mesut ben
-//davaro ben
+
 
 public class AddComment extends Activity implements OnClickListener{
 	
@@ -34,21 +33,13 @@ public class AddComment extends Activity implements OnClickListener{
     // JSON parser class
     JSONParser jsonParser = new JSONParser();
     
-    //php add a comment script
     
-    //localhost :  
-    //testing on your device
-    //put your local ip instead,  on windows, run CMD > ipconfig
-    //or in mac's terminal type ifconfig and look for the ip under en0 or en1
-   // private static final String POST_COMMENT_URL = "http://xxx.xxx.x.x:1234/webservice/addcomment.php";
     
     //testing on Emulator:
-    private static final String POST_COMMENT_URL = "http://10.20.0.210/webservice/addcomment.php";
+    private static final String POST_COMMENT_URL = "http://192.168.1.103/webservice/addcomment.php";
     
-  //testing from a real server:
-    //private static final String POST_COMMENT_URL = "http://www.mybringback.com/webservice/addcomment.php";
-    
-    //ids
+   //testing from a real server:
+   
     private static final String TAG_SUCCESS = "success";
     private static final String TAG_MESSAGE = "message";
 	
